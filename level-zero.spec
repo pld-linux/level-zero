@@ -1,15 +1,15 @@
 Summary:	oneAPI Level Zero components
 Summary(pl.UTF-8):	Komponenty oneAPI Level Zero
 Name:		level-zero
-Version:	1.15.8
+Version:	1.22.4
 Release:	1
 License:	MIT
 Group:		Libraries
 #Source0Download: https://github.com/oneapi-src/level-zero/releases
 Source0:	https://github.com/oneapi-src/level-zero/archive/v%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	609eec9753bbc194fc7a4ac9bac607a1
+# Source0-md5:	93bfaffc27171e20169b50947e820743
 URL:		https://github.com/oneapi-src/level-zero
-BuildRequires:	cmake >= 3.2.0
+BuildRequires:	cmake >= 3.12.0
 BuildRequires:	libstdc++-devel >= 6:5
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
